@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/background_radius_yellow"
+        android:text="수정버튼"
+        android:id="@+id/editBtn"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/background_radius_yellow"
+        android:text="삭제버튼"
+        android:id="@+id/removeBtn"/>
+</LinearLayout>
